@@ -77,19 +77,19 @@ public class Converter {
 						scanner.nextLine();
 						switch(subMenuSelection) {
 						case 1:
-							System.out.println(getValues() + " Microseconds is " + convertMicrosecondsToNanoseconds(input) + " Nanoseconds." );
+							System.out.println(getValues() + " Microseconds are " + convertMicrosecondsToNanoseconds(input) + " Nanoseconds." );
 							break;
 						case 2:
-							System.out.println(getValues() + " Milliseconds is " + convertMillisecondsToMicroseconds(input) + " Microseconds." );
+							System.out.println(getValues() + " Milliseconds are " + convertMillisecondsToMicroseconds(input) + " Microseconds." );
 							break;
 						case 3:
-							System.out.println(getValues() + " Seconds is " + convertSecondsToMilliseconds(input) + " Milliseconds." );
+							System.out.println(getValues() + " Seconds are " + convertSecondsToMilliseconds(input) + " Milliseconds." );
 							break;
 						case 4:
-							System.out.println(getValues() + " Minutes is " + convertMinutesToSeconds(input) + " Seconds." );
+							System.out.println(getValues() + " Minutes are " + convertMinutesToSeconds(input) + " Seconds." );
 							break;
 						case 5:
-							System.out.println(getValues() + " Hours is " + convertHoursToMinutes(input) + " Minutes." );
+							System.out.println(getValues() + " Hours are " + convertHoursToMinutes(input) + " Minutes." );
 							break;
 						case 6:
 							System.out.println("Returning to the main menu.");
@@ -111,13 +111,13 @@ public class Converter {
 						scanner.nextLine();
 						switch(subMenuSelection) {
 						case 1:
-							System.out.println(getValues() + " pounds is " + convertPoundsToKilograms(input) + " kilograms." );
+							System.out.println(getValues() + " pounds are " + convertPoundsToKilograms(input) + " kilograms." );
 							break;
 						case 2:
-							System.out.println(getValues() + " kilograms is " + convertKilogramsToPounds(input) + " pounds." );
+							System.out.println(getValues() + " kilograms are " + convertKilogramsToPounds(input) + " pounds." );
 							break;
 						case 3:
-							System.out.println(getValues() + " Ounces is " + convertOuncesToGrams(input) + " grams.");
+							System.out.println(getValues() + " Ounces are " + convertOuncesToGrams(input) + " grams.");
 						case 4:
 							System.out.println("Returning to the main menu.");
 							break;
