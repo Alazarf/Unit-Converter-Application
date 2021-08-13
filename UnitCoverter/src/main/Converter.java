@@ -38,22 +38,22 @@ public class Converter {
 						scanner.nextLine();
 						switch(subMenuSelection) {
 						case 1:
-							System.out.println(getValues() + " Feranite are " + convertFeranitetoCelsius(input) + " Celsius." );
+							System.out.println(getValues() + " Feranite is " + convertFeranitetoCelsius(input) + " Celsius." );
 							break;
 						case 2:
-							System.out.println(getValues() + " Celsius are " + convertCelsiusToFeranite(input) + " Feranite." );
+							System.out.println(getValues() + " Celsius is " + convertCelsiusToFeranite(input) + " Feranite." );
 							break;
 						case 3:
-							System.out.println(getValues() + " Kelvin are " + convertKelvinToCelsius(input) + " Celsius");
+							System.out.println(getValues() + " Kelvin is " + convertKelvinToCelsius(input) + " Celsius");
 							break;
 						case 4:
-							System.out.println(getValues() + " Celsius are " + convertCelsiusToKelvin(input) + " Kelvin");
+							System.out.println(getValues() + " Celsius is " + convertCelsiusToKelvin(input) + " Kelvin");
 							break;
 						case 5:
-							System.out.println(getValues() + " Kelvin are " + convertKelvinToFeranite(input) + " Feranite");
+							System.out.println(getValues() + " Kelvin is " + convertKelvinToFeranite(input) + " Feranite");
 							break;
 						case 6:
-							System.out.println(getValues() + " Feranite are " + convertFeraniteToKelvin(input) + " Kelvin");
+							System.out.println(getValues() + " Feranite is " + convertFeraniteToKelvin(input) + " Kelvin");
 							break;
 						case 7:
 							System.out.println("Returning to the main menu.");
@@ -77,19 +77,19 @@ public class Converter {
 						scanner.nextLine();
 						switch(subMenuSelection) {
 						case 1:
-							System.out.println(getValues() + " Microseconds are " + convertMicrosecondsToNanoseconds(input) + " Nanoseconds." );
+							System.out.println(getValues() + " Microseconds is " + convertMicrosecondsToNanoseconds(input) + " Nanoseconds." );
 							break;
 						case 2:
-							System.out.println(getValues() + " Milliseconds are " + convertMillisecondsToMicroseconds(input) + " Microseconds." );
+							System.out.println(getValues() + " Milliseconds is " + convertMillisecondsToMicroseconds(input) + " Microseconds." );
 							break;
 						case 3:
-							System.out.println(getValues() + " Seconds are " + convertSecondsToMilliseconds(input) + " Milliseconds." );
+							System.out.println(getValues() + " Seconds is " + convertSecondsToMilliseconds(input) + " Milliseconds." );
 							break;
 						case 4:
-							System.out.println(getValues() + " Minutes are " + convertMinutesToSeconds(input) + " Seconds." );
+							System.out.println(getValues() + " Minutes is " + convertMinutesToSeconds(input) + " Seconds." );
 							break;
 						case 5:
-							System.out.println(getValues() + " Hours are " + convertHoursToMinutes(input) + " Minutes." );
+							System.out.println(getValues() + " Hours is " + convertHoursToMinutes(input) + " Minutes." );
 							break;
 						case 6:
 							System.out.println("Returning to the main menu.");
@@ -111,13 +111,13 @@ public class Converter {
 						scanner.nextLine();
 						switch(subMenuSelection) {
 						case 1:
-							System.out.println(getValues() + " pounds are " + convertPoundsToKilograms(input) + " kilograms." );
+							System.out.println(getValues() + " pounds is " + convertPoundsToKilograms(input) + " kilograms." );
 							break;
 						case 2:
-							System.out.println(getValues() + " kilograms are " + convertKilogramsToPounds(input) + " pounds." );
+							System.out.println(getValues() + " kilograms is " + convertKilogramsToPounds(input) + " pounds." );
 							break;
 						case 3:
-							System.out.println(getValues() + " Ounces are " + convertOuncesToGrams(input) + " grams.");
+							System.out.println(getValues() + " Ounces is " + convertOuncesToGrams(input) + " grams.");
 						case 4:
 							System.out.println("Returning to the main menu.");
 							break;
